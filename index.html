@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Kelompok Sixties</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between p-4 bg-blue-600 text-white sticky top-0">
+    <h1 class="text-lg font-bold">SMK IT</h1>
+    <button class="md:hidden">☰</button>
+    <nav class="hidden md:flex gap-4">
+      <a href="#tentang" class="hover:underline">Tentang</a>
+      <a href="#jurusan" class="hover:underline">Jurusan</a>
+      <a href="#fasilitas" class="hover:underline">Fasilitas</a>
+      <a href="#pendaftaran" class="hover:underline">Pendaftaran</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center p-8 bg-blue-100">
+    <h1 class="text-3xl font-bold mb-2">SMK IT – Siap Mencetak Generasi Digital</h1>
+    <h2 class="text-3xl font-bold mb-2"> Jurusan :</h2>
+    <h2 class="text-3xl font-bold mb-2">1. RPL</h2>
+    <h2 class="text-3xl font-bold mb-2">2. Multimedia</h2>
+    <h2 class="text-3xl font-bold mb-2">3. TKJ</h2>
+    <img src="image/image1.jpg" alt="Hero Image" class="mx-auto rounded-lg shadow mb-4">
+    <a href="#pendaftaran" class="px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">Daftar Sekarang</a>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="p-6 max-w-3xl mx-auto">
+    <h3 class="text-2xl font-semibold mb-2">Tentang SMK IT</h3>
+    <p>SMK IT berkomitmen melahirkan generasi siap kerja dan wirausaha di bidang Teknologi Informasi dengan kurikulum berbasis industri.</p>
+  </section>
+
+  <!-- Jurusan -->
+  <section id="jurusan" class="p-6 bg-gray-100">
+    <h3 class="text-2xl font-semibold mb-4 text-center">Jurusan Kami</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+      <div class="p-4 bg-white rounded shadow">🌐 RPL</div>
+      <div class="p-4 bg-white rounded shadow">🎬 Multimedia</div>
+      <div class="p-4 bg-white rounded shadow">💻 TKJ</div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Fasilitas -->
+  <section id="fasilitas" class="p-6">
+    <h3 class="text-2xl font-semibold mb-4 text-center">Fasilitas Kami</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+      <div class="p-4 bg-white rounded shadow">💻 Lab Komputer</div>
+      <div class="p-4 bg-white rounded shadow">🌐 Internet Cepat</div>
+      <div class="p-4 bg-white rounded shadow">🎥 Studio Multimedia</div>
+      <div class="p-4 bg-white rounded shadow">🏫 Ruang Belajar Nyaman</div>
+    </div>
+  </section>
+
+  <!-- Form Pendaftaran -->
+  <section id="pendaftaran" class="p-6 bg-blue-50">
+    <h3 class="text-2xl font-semibold mb-4 text-center">Formulir Pendaftaran</h3>
+    <form class="max-w-md mx-auto bg-white p-6 rounded-lg shadow space-y-4">
+      <input type="text" placeholder="Nama Lengkap" class="w-full p-2 border rounded">
+      <input type="email" placeholder="Email" class="w-full p-2 border rounded">
+      <input type="tel" placeholder="No HP" class="w-full p-2 border rounded">
+      <input type="text" placeholder="Alamat" class="w-full p-2 border rounded">
+      <select class="w-full p-2 border rounded">
+        <option value="tkj">TKJ</option>
+        <option value="webdesain">RPL</option>
+        <option value="multimedia">Multimedia</option>
+      </select>
+      <button type="submit" class="w-full p-2 bg-blue-600 text-white rounded hover:bg-blue-700">Kirim Pendaftaran</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-6 bg-blue-600 text-white text-center">
+    <p>📍 Jl. Perjuangan No.10, Cirebon</p>
+    <p>📞 (022) 1234567 | ✉️ info@smkitcirebon.sch.id</p>
+  </footer>
+
+</body>
+</html>
